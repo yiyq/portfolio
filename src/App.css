@@ -1,0 +1,12 @@
+.App {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+    .App {
+        padding-left: 5%;
+        padding-right: 5%;
+        min-width: 100%;
+    }
+}
