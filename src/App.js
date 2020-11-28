@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 
 import Home from "./components/Home/Home";
+import StreamLabs from "./components/streamLabs/StreamLabs";
 
 import './App.css';
 
@@ -15,8 +16,8 @@ function App() {
         <Router>
             <div>
                 <Switch>
-                    <Route path="/proj1">
-                        <Proj1 />
+                    <Route path="/streamLabs">
+                        <StreamLabs />
                     </Route>
                     <Route path="/proj2">
                         <Proj2 />
@@ -40,10 +41,6 @@ function App() {
 
 function About() {
     return <h2>About</h2>;
-}
-
-function Proj1(){
-    return <h2>Proj1</h2>;
 }
 
 function Proj2(){

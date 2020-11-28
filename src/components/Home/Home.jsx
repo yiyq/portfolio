@@ -9,7 +9,7 @@ import imgMFA from "../../img/cover_medforall.png";
 import imgOAH from "../../img/cover_OAH.png";
 import imgOAHSmall from "../../img/cover_sm_OAH.png";
 
-import "./Home.css"
+import "./Home.scss"
 
 class Home extends React.Component {
 
@@ -28,14 +28,14 @@ class Home extends React.Component {
                 <Header />
                 <div className="intro-container">
                     <span>
-                        Hello 🐣 I’m <strong>Yunqing Yi</strong>, a UI/UX designer passionate about solving problems with empathy and creativity.
+                        Hello 🐣 I’m <strong className="home-strong">Yunqing Yi</strong>, a UI/UX designer passionate about solving problems with empathy and creativity.
                     </span>
                 </div>
                 <div className="flex-container">
-                    <div className="flex-item proj1" onClick={() => this.handleOnClick('proj1')}>
+                    <div className="flex-item streamLabs" onClick={() => this.handleOnClick('streamLabs')}>
                         <img src={imgSL} />
-                        <div className="proj1-overlay overlay">
-                            <div className="proj1-text">Stream Labs</div>
+                        <div className="streamLabs-overlay overlay">
+                            <div className="streamLabs-text">Streamlabs</div>
                         </div>
                     </div>
                     <div className="flex-item proj2" onClick={() => this.handleOnClick('proj2')} >

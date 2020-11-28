@@ -2,7 +2,7 @@ import React from "react";
 
 import Image from 'react-bootstrap/Image'
 
-import './Header.css'
+import './Header.scss'
 import logo from "../../img/logo.svg"
 
 class Header extends React.Component {
