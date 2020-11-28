@@ -1,0 +1,222 @@
+.streamlabs-header {
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h3, p {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
+}
+
+hr {
+    display: block;
+    height: 5px;
+    border: 0;
+    border-top: 3px solid #DFF0EC;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0;
+}
+
+.streamlabs-spacer {
+    height: 3em;
+}
+
+.streamlabs-fade-in {
+    animation: fadeIn ease 1s;
+}
+@keyframes streamlabs-fadeIn {
+    0% {
+        opacity:0;
+        transform: translateY(-40px);
+    }
+    100% {
+        opacity:1;
+        transform: translateY(0);
+    }
+}
+
+.streamlabs-overview-flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 3em;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.streamlabs-research-flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 3em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.streamlabs-prototype-gif-container {
+    display: block;
+    width: 90%;
+    margin: 3em auto;
+    overflow: auto;
+}
+
+.streamlabs-prototype-gif-left {
+    display: block;
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.streamlabs-prototype-gif-right {
+    display: block;
+    float: right;
+    width: 64.2%;
+    height: 100%;
+}
+
+.streamlabs-prototype-git-text-container {
+    clear: both;
+}
+
+.streamlabs-overview-flex-item, .streamlabs-research-flex-item {
+    position: relative;
+    width: 45%;
+}
+
+.streamlabs-research-container, .streamlabs-ideation-container, .streamlabs-prototype-container, .streamlabs-reflection-container {
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.streamlabs-work-flow-img, .streamlabs-observation-img, .streamlabs-alert-box-img, .streamlabs-ideation-skeche-img {
+    display: block;
+    margin: 3em auto;
+    width: 80%;
+}
+
+.streanlabs-cover-img {
+    display: block;
+    margin: 1em auto;
+    width: 80%;
+}
+
+.streamlabs-wireframe-img, .streamlabs-prototype-cover-img {
+    display: block;
+    margin: 3em auto;
+    width: 90%;
+}
+
+.streamlabs-analysis {
+    height: 6em;
+}
+
+.streamlabs-goals-container {
+    margin-top: 3em;
+}
+
+.streamlabs-goals {
+    margin-top: 0.5em;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: bold;
+}
+
+.streamlabs-prototype {
+    margin-top: 0.5em;
+    padding-left: 5%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .streamlabs-header {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        text-align: center;
+        font-size: 48px;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .streanlabs-cover-img {
+        display: block;
+        margin: 1em auto;
+        width: 100%;
+    }
+    .streamlabs-overview-flex-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin-top: 3em;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .streamlabs-research-container, .streamlabs-ideation-container, .streamlabs-prototype-container, .streamlabs-reflection-container {
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+    .streamlabs-observation-img, .streamlabs-alert-box-img, .streamlabs-ideation-skeche-img {
+        display: block;
+        margin: 2em auto;
+        width: 80%;
+    }
+    .streamlabs-research-flex-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin-top: 1.5em;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .streamlabs-goals-container {
+        margin-top: 1.5em;
+    }
+    .streamlabs-spacer {
+        height: 1.5em;
+    }
+    .streamlabs-analysis {
+        height: 7em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .streamlabs-header {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        text-align: center;
+        font-size: 38px;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .streamlabs-overview-flex-container, .streamlabs-research-flex-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin-top: 1.5em;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .streamlabs-work-flow-img, .streamlabs-observation-img, .streamlabs-alert-box-img, .streamlabs-ideation-skeche-img, .streamlabs-wireframe-img-vertical, .streamlabs-prototype-cover-img {
+        display: block;
+        margin: 2em auto;
+        width: 100%;
+    }
+    .streamlabs-research-container, .streamlabs-ideation-container, .streamlabs-prototype-container {
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+    .streamlabs-analysis {
+        height: 12.5em;
+    }
+    .streamlabs-analysis:last-child {
+        height: 8em;
+    }
+}

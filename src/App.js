@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 
 import Home from "./components/Home/Home";
-import StreamLabs from "./components/streamLabs/StreamLabs";
+import StreamLabs from "./components/StreamLabs/StreamLabs";
 
 import './App.css';
 
@@ -19,10 +19,10 @@ function App() {
                     <Route path="/streamLabs">
                         <StreamLabs />
                     </Route>
-                    <Route path="/proj2">
+                    <Route path="/medforall">
                         <Proj2 />
                     </Route>
-                    <Route path="/proj3">
+                    <Route path="/ohioathome">
                         <Proj3 />
                     </Route>
                     <Route path="/about">
