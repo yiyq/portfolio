@@ -26,7 +26,9 @@ class StreamLabs extends React.Component {
                     Streamlabs Alert Box
                 </div>
                 <div className="streamlabs-fade-in">
-                    { window.innerWidth > 786 ? <img className="streanlabs-cover-img" src={streamlabsCoverLong} /> : <img className="streanlabs-cover-img" src={ streamlabsCover } />}
+                    { window.innerWidth > 786 ? <img className="streanlabs-cover-img" src={streamlabsCoverLong} /> :
+                        <img className="streanlabs-cover-img" src={ streamlabsCover } />
+                    }
                 </div>
                 <div className="streamlabs-overview-flex-container">
                     <div className="streamlabs-overview-flex-item">
@@ -44,7 +46,7 @@ class StreamLabs extends React.Component {
                     </div>
                     <img className="streamlabs-work-flow-img" src={ streamlabsWorkflow } />
                 </div>
-                <hr />
+                <hr className="streamlabs-hr" />
                 <div className="streamlabs-research-container">
                     <h1>Research</h1>
                     <h3>What is Streamlabs and alert box?</h3>
@@ -59,13 +61,13 @@ class StreamLabs extends React.Component {
                     <p>Based on my observation and usability test, i defined some key problems, brainstormed the reason behind them and also think of potential improvements.</p>
                     <div className="streamlabs-research-flex-container">
                         <div className="streamlabs-research-flex-item">
-                            <h3>PAIN POINTS</h3>
+                            <h3>Pain Points</h3>
                             <p className="streamlabs-analysis">There are lots of customizable features, users can take fully control. But on the other hand, too <strong>complicate</strong> and <strong>overwhelming</strong>.</p>
                             <p className="streamlabs-analysis">Some of the <strong>functions are not directly usable on this page</strong>. They only functioning when preview is up.</p>
                             <p className="streamlabs-analysis"><strong>Hard to navigate around</strong>. I found its difficult to distinguish the contents.</p>
                         </div>
                         <div className="streamlabs-research-flex-item">
-                            <h3>{ window.innerWidth > 786 ? 'DESIGN OPPORTUNITIES' : 'OPPORTUNITIES'}</h3>
+                            <h3>{ window.innerWidth > 786 ? 'Design Opportunities' : 'Design'}</h3>
                             <p className="streamlabs-analysis">The <strong>hierarchy</strong> of the page is not clear enough. Sections are not divided in an obvious way.</p>
                             <p className="streamlabs-analysis">Contents that not usable take space and cause confusion.</p>
                             <p className="streamlabs-analysis">The structure and user flow could be improved. The styles of texts are too close.</p>
@@ -78,7 +80,7 @@ class StreamLabs extends React.Component {
                         <p className="streamlabs-goals">- Improve the visual elements, including buttons and text styles to simplify the interaction.</p>
                     </div>
                 </div>
-                <hr />
+                <hr className="streamlabs-hr" />
                 <div className="streamlabs-ideation-container">
                     <h1>Ideation</h1>
                     <h3>Sketches</h3>
@@ -92,7 +94,7 @@ class StreamLabs extends React.Component {
                     <p>Next step I went into wireframe. Playing around the layouts in a digital format and with more detailed content helped me make decisions and refinements.</p>
                     { window.innerWidth > 786 ? <img className="streamlabs-wireframe-img" src={ wireframe } /> : <img className="streamlabs-wireframe-img-vertical" src={ wireframeVertical } />}
                 </div>
-                <hr />
+                <hr className="streamlabs-hr" />
                 <div className="streamlabs-prototype-container">
                     <h1>Prototype</h1>
                     <p>The final appoarch was an interactive prototype in Figma. The redesign changed the structure of the original page.</p>
@@ -117,7 +119,7 @@ class StreamLabs extends React.Component {
                         <img className="streamlabs-prototype-gif-right" src={ enableGif } />
                     </div>
                 </div>
-                <hr />
+                <hr className="streamlabs-hr" />
                 <div className="streamlabs-reflection-container">
                     <h1>Reflection</h1>
                     <p>

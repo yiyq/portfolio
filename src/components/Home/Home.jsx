@@ -5,7 +5,7 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
 import imgSL from "../../img/streamlabs/cover_SL.png";
-import imgMFA from "../../img/cover_medforall.png";
+import imgMFA from "../../img/medforall/cover_medforall.png";
 import imgOAH from "../../img/cover_OAH.png";
 import imgOAHSmall from "../../img/cover_sm_OAH.png";
 
@@ -20,6 +20,10 @@ class Home extends React.Component {
 
     handleOnClick(event) {
         this.props.history.push(`/${event}`);
+    }
+
+    componentDidMount() {
+        window.scrollTo(0, 0);
     }
 
     render() {

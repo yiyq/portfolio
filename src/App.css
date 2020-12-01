@@ -3,6 +3,11 @@
     padding-right: 10%;
 }
 
+h1, h2, h3, h4, h5, p {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
+}
+
 @media only screen and (max-width: 768px) {
     .App {
         padding-left: 5%;

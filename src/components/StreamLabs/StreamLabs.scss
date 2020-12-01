@@ -7,16 +7,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-h1, h3, p {
-    font-family: 'Open Sans', sans-serif;
-    margin-bottom: 0;
-}
-
-hr {
+.streamlabs-hr {
     display: block;
     height: 5px;
     border: 0;
-    border-top: 3px solid #DFF0EC;
+    border-top: 3px solid #dff0ec;
     margin-top: 1em;
     margin-bottom: 1em;
     padding: 0;
@@ -27,7 +22,7 @@ hr {
 }
 
 .streamlabs-fade-in {
-    animation: fadeIn ease 1s;
+    animation: streamlabs-fadeIn ease 1s;
 }
 @keyframes streamlabs-fadeIn {
     0% {

@@ -1,0 +1,206 @@
+.medforall-header {
+  margin-top: 2em;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.medforall-subheader {
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.medforall-hr {
+  display: block;
+  height: 5px;
+  border: 0;
+  border-top: 3px solid #dbe6e8;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0;
+}
+
+.medforall-spacer {
+  margin-bottom: 3em;
+}
+
+.medforall-fade-in {
+  animation: medforall-fadeIn ease 1s;
+}
+@keyframes medforall-fadeIn {
+  0% {
+    opacity:0;
+    transform: translateY(-40px);
+  }
+  100% {
+    opacity:1;
+    transform: translateY(0);
+  }
+}
+
+.medforall-cover-img, .medforall-work-flow-img, .medforall-competitive-img, .medforall-logo-design-1, .medforall-logo-design-2,
+.medforall-design-system-img {
+  display: block;
+  margin: 3em auto;
+  width: 80%;
+}
+
+.medforall-marketing-website-flow-img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.medforall-marketing-website-prototype-img {
+  display: block;
+  margin: 2em auto;
+  width: 100%;
+}
+
+.medforall-web-ui-img {
+  display: block;
+  margin-top: 2em;
+  width: 100%;
+}
+
+.medforall-web-code-img {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.medforall-overview-flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 3em;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.medforall-overview-flex-item, .medforall-research-flex-item {
+  position: relative;
+  width: 45%;
+}
+
+.medforall-research-container, .medforall-ideation-prototype-container, .medforall-development-container {
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.medforall-research-flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.medforall-research {
+  height: 4em;
+}
+
+.medforall-goal-p {
+  margin-top: 2em;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .medforall-header {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .medforall-subheader {
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .medforall-cover-img {
+    display: block;
+    margin: 1em auto;
+    width: 100%;
+  }
+  .medforall-overview-flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 3em;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .medforall-research-container, .medforall-ideation-prototype-container, .medforall-development-container {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+  .medforall-research-flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .medforall-research {
+    height: 5em;
+  }
+  .medforall-goal-p {
+    margin-top: 1em;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .medforall-header {
+    margin-top: 0.5em;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .medforall-subheader {
+    margin: 0;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .medforall-work-flow-img, .medforall-competitive-img, .medforall-logo-design-1, .medforall-logo-design-2,
+  .medforall-design-system-img  {
+    display: block;
+    margin: 2em auto;
+    width: 100%;
+  }
+  .medforall-research-flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .medforall-research {
+    height: 25%;
+  }
+  .medforall-goal-p {
+    margin-top: 1em;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
