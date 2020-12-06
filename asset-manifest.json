@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3b9ab1e2.chunk.css",
-    "main.js": "/portfolio/static/js/main.3808a3a1.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.3808a3a1.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.2e712851.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2e712851.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.3f909665.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.3f909665.js.map",
     "static/js/2.7135fb54.chunk.js": "/portfolio/static/js/2.7135fb54.chunk.js",
@@ -45,6 +45,7 @@
     "static/media/cover_medforall.21ab4cbc.png": "/portfolio/static/media/cover_medforall.21ab4cbc.png",
     "static/media/cover_sm_OAH.a4ef6fad.png": "/portfolio/static/media/cover_sm_OAH.a4ef6fad.png",
     "static/media/logo.760c3ba8.svg": "/portfolio/static/media/logo.760c3ba8.svg",
+    "static/media/resume_yi.b40759ec.pdf": "/portfolio/static/media/resume_yi.b40759ec.pdf",
     "static/media/streamlabs_alert_box_exampl.68e2d150.png": "/portfolio/static/media/streamlabs_alert_box_exampl.68e2d150.png",
     "static/media/streamlabs_cover.f4153cbf.png": "/portfolio/static/media/streamlabs_cover.f4153cbf.png",
     "static/media/streamlabs_cover_long.5751d2b6.png": "/portfolio/static/media/streamlabs_cover_long.5751d2b6.png",
@@ -62,6 +63,6 @@
     "static/js/runtime-main.3f909665.js",
     "static/js/2.7135fb54.chunk.js",
     "static/css/main.3b9ab1e2.chunk.css",
-    "static/js/main.3808a3a1.chunk.js"
+    "static/js/main.2e712851.chunk.js"
   ]
 }
