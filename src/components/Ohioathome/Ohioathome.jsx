@@ -68,17 +68,17 @@ class Ohioathome extends React.Component {
                     <h1>Research</h1>
                     <h3>Background</h3>
                     <p>
-                        Ohioathome is a home healthcare service company located in Columbus, Ohio. It is founded in 2011,
-                        now there are over 100 home healthcare providers from Ohioathome serving more than 20 clients with
-                        developmental disability in central Ohio. Ohioathome is the sister company of Medforall, the company
-                        I worked for after graduated from college. This time, I joined Ohioathome as a UI/UX designer to build
-                        a product which help our direct service healthcare providers to manage their work.
+                        Ohioathome is a home healthcare service company located in Columbus, Ohio. It was founded in 2011,
+                        and now there are over 100 home healthcare providers from Ohioathome serving more than 20 clients
+                        with developmental disabilities in central Ohio. Ohioathome is the sister company of Medforall,
+                        the company I worked for after graduated from college. This time, I joined Ohioathome as a UI/UX
+                        designer to build a product that helps our direct service healthcare providers to manage their work.
                     </p>
                     <img className="ohioathome-research-cover-img" src={ researchCover } />
                     <h3>Personas</h3>
                     <p>
-                        In order to understanding the user, I talked to our healthcare providers, interviewed them about
-                        what is their working routine, how they organize their work and also a little bit about their personal goals.
+                        To understand the user, I talked to our healthcare providers, interviewed them about what is their
+                        working routine, how they organize their work, and also a little bit about their personal goals.
                         And I concluded two personas that can represent most of their peculiarities.
                     </p>
                     <div className="ohioathome-persona-container">
@@ -88,28 +88,26 @@ class Ohioathome extends React.Component {
                     <h3>Problem statement</h3>
                     <p>
                         State and counties have a lot of complex requirements to track healthcare providers’ work. From
-                        precise location check-in, check-out to submit report for each shift they finished in 24 hrs.
-                        Currently, there is no platform or solution for them to organize these work in one place. And it
-                        is hard for agencies to collect all these information, furthermore it cause a chain effect that
-                        it would be difficult to submit documents and report to the state and counties.
+                        precise location check-in, check-out to submit the report for each shift they finished in 24 hrs.
+                        Currently, there is no platform or solution for them to organize these works in one place. And
+                        it is hard for agencies to collect all this information, furthermore, it causes a chain effect
+                        that it would be difficult to submit documents and report to the state and counties.
                         <br /><br />
-                        Therefore, our product development team propose a digital solution which is a web app. Through
-                        this app, providers can <strong>manage their schedule</strong>, <strong>check-in/check-out</strong>
-                        during working shifts, <strong>submit reports</strong>.<br />
-                        Furthermore, they can <strong>access to client’s basic service guidelines</strong> and there
-                        also will be a playground for them to <strong>communicate</strong> information related to clients.
+                        Therefore, our product development team proposes a digital solution which is a web app. Through
+                        this app, providers can <strong>manage their schedule</strong>, <strong>check-in/check-out</strong> during working shifts, <strong>submit reports</strong>.
+                        Furthermore, they can <strong>access the client’s basic service guidelines</strong> and there also will be a playground
+                        for them to <strong>communicate</strong> information related to clients.
                         <br /><br />
-                        In one word, we will design a web app for all direct support providers with the follow features:
-                        <strong>schedule management, </strong><strong>check-in/check-out service, </strong>
-                        <strong>report management, </strong><strong>access to client’s service guideline, </strong> and
-                        <strong> communication</strong>.
+                        In one word, we will design a <strong>web app</strong> for all direct support providers with the following features:
+                        <strong> schedule management, check-in/check-out service, report management, access to client’s service
+                            guidelines, and communication</strong>.
                     </p>
                     <div className="ohioathome-spacer" />
                     <h3>User stories</h3>
                     <p>
-                        All of the previous steps gave me better idea how to build this product with pertinence. The next
-                        step is to develop a user stories board helping me define the features, clear the structure and
-                        create a user flow.
+                        All of the previous steps gave me a better idea of how to build this product with pertinence.
+                        The next step is to develop a user stories board helping me define the features, clear the structure,
+                        and create a user flow.
                     </p>
                     <img className="ohioathome-user-stories-img" src={ userStories } />
                 </div>
@@ -117,11 +115,6 @@ class Ohioathome extends React.Component {
                 <div className="ohioathome-ideation-container">
                     <h1>Ideation</h1>
                     <h3>Flow chart</h3>
-                    <p>
-                        Getting know about the users more give me better idea how to build this product with pertinence.
-                        The next step is to develop a user stories board helping me define the features, clear the structure
-                        and create a user flow.
-                    </p>
                     <div className="ohioathome-spacer" />
                     { window.innerWidth > 1024 ?
                         <SimpleImageSlider
@@ -139,38 +132,37 @@ class Ohioathome extends React.Component {
                     <div className="ohioathome-spacer" />
                     <h3>Wireframe</h3>
                     <p>
-                        After had this clear structure, I moved on to wireframe. Some sketches were made first helping
-                        me define some detail interactions.
+                        After having this structure, I moved on to wireframe. Some sketches were made first helping me define some detailed interactions.
                     </p>
                     <img className="ohioathome-wireframe-img" src={ wireframe } />
                     <p>
                         <h4>Profile menu</h4><br />
-                        Under this section, users are able to manage their personal information, working schedule and manage reports.<br />
-                        <strong>Profile</strong>: providers can change their profile picture, basic information and track the validity of compliance documents.<br />
-                        <strong>My calendar</strong>: where shows the schedule, RSVP to assigned shifts, manage availablity and pick up suggested shifts. Check-in, check-out and subit reports are also available actions according to shift time.<br />
+                        Under this section, users are able to manage their personal information, working schedule, and manage reports.<br />
+                        <strong>Profile</strong>: providers can change their profile picture, basic information, and track the validity of compliance documents.<br />
+                        <strong>My calendar</strong>: where shows the schedule, RSVP to assigned shifts, manage availability, and pick up suggested shifts. Check-in/check-out and submit reports are also available actions according to shift time.<br />
                         <strong>Reports</strong>: submit reports on time is an important responsibility for providers. This is where they can track and submit missing reports.<br />
                     </p>
                     <img className="ohioathome-wireframe-img" src={ wireframe1 } />
                     <p>
                         <strong>Newsfeed</strong><br />
                         Here is a mini social media function for providers to communicate with each other. They can post
-                        important notes during their shift to notify other providers who are going to serve the same clinets.
-                        They can leave reminders to track client’s need. They can also share interesting stories happened with clients.
-                        Within this section, providers can learn more about their clients, co-workers and the community.
+                        important notes during their shift to notify other providers who are going to serve the same clients.
+                        They can leave reminders to track the client’s needs. They can also share interesting stories that happened with clients.
+                        Within this section, providers can learn more about their clients, co-workers, and the community.
                     </p>
                     <img className="ohioathome-wireframe-img" src={ wireframe2 } />
                     <p>
                         <strong>Client list</strong><br />
-                        Here lists all clients the provider is working with. In each client’s detail view, they can check
-                        client’s profile and view all posts related to this client. In the other tab, They can review
-                        the client’s serve guideline and important notice.
+                        All clients the provider is working with are listed here. In each client’s detail view, they can
+                        check the client’s profile and view all posts related to this client. In the other tab, They can
+                        review the client’s service guidelines and important notices.
                     </p>
                     <img className="ohioathome-wireframe-img" src={ wireframe3 } />
                     <p>
                         <strong>Notification center</strong><br />
-                        All sorts of notifications and reminders will be listed here. Most of them need immediate reaction
-                        from the provider. Including RSVP to assigned shift, check-in, check-out, submit report, client’s
-                        announcement, etc. Providers can easily react to those notifications by expand the cards.
+                        All sorts of notifications and reminders will be listed here. Most of them need an immediate reaction
+                        from the provider. Including RSVP to assigned shift, check-in, check-out, submit the report,
+                        client’s announcement, etc. Providers can easily react to those notifications by expanding the cards.
                     </p>
                     <img className="ohioathome-wireframe-img" src={ wireframe4 } />
                 </div>
@@ -189,11 +181,11 @@ class Ohioathome extends React.Component {
                     <img className="ohioathome-testing-img" src={ testing } />
                     <h3>Reflection</h3>
                     <p>
-                        This is my first “real-world” project and I am very glad having this opportunity while working at
-                        Ohioathome Healthcare Agency. As the only designer on team, my responsiblity was not only creating
-                        interfaces, but also I wore the hat of product designer to define the product features, designed
-                        the structure and involved in usability tests. The product is now in a pilot launch stage (early December)
-                        and we are receving positive feedbacks from our healthcare providers. Our team will keep eyes on
+                        This is my first “real-world” project and I am glad to have this opportunity while working at
+                        Ohioathome Healthcare Agency. As the only designer on the team, my responsibility was not only
+                        creating interfaces but also I wore the hat of the product designer to define the product features,
+                        designed the structure, and involved in usability tests. The product is now in a pilot launch stage(early December)
+                        and we are receiving positive feedback from our healthcare providers. Our team will keep an eye on
                         solving instant issues and always make improvements.
                         <br /><br />
                         If you would like to see more works I have done with this company, please feel free to contact me.

@@ -31,10 +31,10 @@ class Medforall extends React.Component {
                 </div>
                 <div className="medforall-overview-flex-container">
                     <div className="medforall-overview-flex-item">
-                        <h3>Background</h3>
-                        <p>Medforall is a technology start-up making digital and physical products to support the healthcare industry.
-                            As the initial designer for this start-up I created an entire branding package and build a marketing website
-                            to rise the company’s popularity.
+                        <h3>Overview</h3>
+                        <p>Medforall is a technology startup making digital and physical products to support the healthcare industry.
+                            As the initial designer for this startup, I created an entire branding package and build a
+                            marketing website to raise the company’s popularity.
                         </p>
                     </div>
                     <div className="medforall-overview-flex-item">
@@ -51,23 +51,23 @@ class Medforall extends React.Component {
                 <div className="medforall-research-container">
                     <h1>Research</h1>
                     <h3>Background Research</h3>
-                    <p>By the time I joined Medforall, it was a just founded start-up. The first task for me was to create
-                        its brand identity. I work directly with our CEO to clarify our market position and company’s mission.
+                    <p>By the time I joined Medforall, it was a just founded startup. The first task for me was to create
+                        its brand identity. I work directly with our CEO to clarify our market position and the company’s mission.
                     </p>
                     <div className="medforall-spacer" />
                     <h3>Market Research</h3>
                     <img className="medforall-competitive-img" src={ medforallCompetitive } />
                     <p>
-                        There are two main category of business in the healthcare industry, traidtional home healthcare
-                        agencies and technology companies supporting medical healthcare. Our CEO owns a local traditional
+                        There are two main categories of business in the healthcare industry, traditional home healthcare
+                        agencies, and technology companies supporting medical healthcare. Our CEO owns a local traditional
                         home healthcare agency (Ohioathome healthcare agency), and under the rapid development of technology,
-                        he sees the potential of applying advanced technology in home healthcare environment. And that is the
-                        reason why Medforall was founded in the first place.
+                        he sees the potential of applying advanced technology in home healthcare environment. And that is
+                        the reason why Medforall was founded in the first place.
                     </p>
                     <div className="medforall-research-flex-container">
                         <div className="medforall-research-flex-item">
                             <h3>Company</h3>
-                            <p className="medforall-research">Traditional home healthcare agnecies</p>
+                            <p className="medforall-research">Traditional home healthcare agencies</p>
                             <p className="medforall-research">Medical healthcare technology companies</p>
                             <p className="medforall-research">Medforall</p>
                         </div>
@@ -88,21 +88,22 @@ class Medforall extends React.Component {
                 <div className="medforall-ideation-prototype-container">
                     <h1>Ideation & Prototype</h1>
                     <p>
-                        After defined our positoin and mission, and learned deeply about the company and our team, I started
-                        design the visual system for Medforall. The ideation and protorype steps including, some research,
-                        goes back and forth in this stage.
+                        After defined our position and mission, and learned deeply about the company and our team, I
+                        started to design the visual system for Medforall. The ideation and prototype steps, including
+                        some research, go back and forth in this stage.
                     </p>
                     <div className="medforall-spacer" />
                     <h3>Logo design</h3>
                     <img className="medforall-logo-design-1" src={ medforallLogo1 } />
                     <p>
-                        The main concept combines the element of protection and technology, which repersents our target
-                        market is home healthcare and our products are smart devices and digital platform.
+                        The main concept combines the element of protection and technology, which represents our target
+                        market is home healthcare and our products are smart devices and digital platforms.
                     </p>
                     <img className="medforall-logo-design-2" src={ medforallLogo2 } />
                     <p>
-                        The final outcome is a red cube presenting our core business is technology and wrapped by a blueish-green
-                        rounded corner hexagon stands for our value, providing protective service in home healthcare.
+                        The final design is a red cube presenting our core business as technology and wrapped by a
+                        blueish-green rounded corner hexagon that stands for our value, providing protective service in
+                        home healthcare.
                     </p>
                     <div className="medforall-spacer" />
                     <h3>Design system</h3>
@@ -119,7 +120,7 @@ class Medforall extends React.Component {
                     </p>
                     <img className="medforall-marketing-website-flow-img" src={ medforallMarketingWebsiteFlow } />
                     <p>
-                        I prototyped the site in Figma first and created three versions fit different screen sizes.
+                        I prototyped the site in Figma first and created three versions that fit different screen sizes.
                     </p>
                     <img className="medforall-marketing-website-prototype-img" src={ medforallMarketingWebsitePrototype } />
                 </div>
@@ -127,17 +128,17 @@ class Medforall extends React.Component {
                 <div className="medforall-development-container">
                     <h1>Development</h1>
                     <p>
-                        With the help from one of our software engineer, I build the website based on a template.
+                        Collaborate with one of our software engineers, I build the marketing website ready to launch.
                     </p>
                     <img className="medforall-web-ui-img" src={ medforallWebUI } />
                     <img className="medforall-web-code-img" src={ medforallWebCode } />
                     <div className="medforall-spacer" />
                     <h3>Reflection</h3>
                     <p>
-                        I joined Medforall as my first full-time job after graduation. I am very glad having this opportunity
-                        to develop the company’s brand identity. This is a valuable process from knowing this industry, contact
-                        with people working in this field and apply multiple skill sets to accomplish the projects. These are huge
-                        steps for this start-up and as well as myself, and this is just the begining.
+                        I joined Medforall as my first full-time job after graduation. I am glad about having this opportunity
+                        to develop the company’s brand identity. This is a valuable process from knowing this industry,
+                        contact with people working in this field, and apply multiple skill sets to accomplish the projects.
+                        These are huge steps for this startup and as well as myself, and this is just the beginning.
                         <br /><br />
                         If you would like to see more works I have done with this company, please feel free to contact me.
                     </p>
