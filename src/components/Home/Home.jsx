@@ -6,8 +6,8 @@ import Footer from "../Footer/Footer";
 
 import imgSL from "../../img/streamlabs/cover_SL.png";
 import imgMFA from "../../img/medforall/cover_medforall.png";
-import imgOAH from "../../img/cover_OAH.png";
-import imgOAHSmall from "../../img/cover_sm_OAH.png";
+import imgOAH from "../../img/ohioathome/cover_OAH.png";
+import imgOAHSmall from "../../img/ohioathome/cover_sm_OAH.png";
 
 import "./Home.scss"
 

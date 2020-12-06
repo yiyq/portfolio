@@ -79,7 +79,7 @@ class Medforall extends React.Component {
                         </div>
                     </div>
                     <h3>Our mission and goal</h3>
-                    <p className="medforall-goal-p">Medforall strives to define and create the healthcare collaboration framework of the future.
+                    <p>Medforall strives to define and create the healthcare collaboration framework of the future.
                         We want to cultivate an ecosystem of multidisciplinary providers, and patient monitoring devices
                         to streamline work and collaborate with each other to provide the best care to those we serve.
                     </p>
