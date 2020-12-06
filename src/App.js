@@ -10,6 +10,7 @@ import Medforall from "./components/Medforall/Medforall";
 import ScrollToTop from "./components/Router/ScrollToTop";
 import StreamLabs from "./components/StreamLabs/StreamLabs";
 import Ohioathome from "./components/Ohioathome/Ohioathome";
+import About from "./components/About/About";
 
 import './App.css';
 
@@ -30,7 +31,7 @@ class App extends React.Component {
                             <Ohioathome />
                         </Route>
                         <Route path="/about">
-                            <About/>
+                            <About />
                         </Route>
                         <Route path="/">
                             <Home/>
@@ -40,11 +41,6 @@ class App extends React.Component {
             </div>
         );
     }
-}
-
-
-function About() {
-    return <h2>About</h2>;
 }
 
 export default App;

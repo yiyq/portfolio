@@ -12,7 +12,7 @@ class Header extends React.Component {
                 <Image className="logo-img" src={logo} />
                 { window.innerWidth >= 786 ?
                     <ul id="nav">
-                        <li><a href="/">FAQ</a></li>
+                        <li><a href="https://github.com/yiyq/portfolio/tree/master/src/resume_yi.pdf">Resume</a></li>
                         <li><a href="/About">About</a></li>
                         <li><a href="/">Work</a></li>
                     </ul> :
