@@ -1,4 +1,5 @@
 import React from "react";
+import { withRouter } from 'react-router';
 
 import './NavFooter.scss'
 
@@ -15,4 +16,4 @@ class NavFooter extends React.Component {
     }
 }
 
-export default NavFooter;
+export default withRouter(NavFooter);

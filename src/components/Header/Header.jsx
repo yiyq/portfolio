@@ -1,4 +1,5 @@
 import React from "react";
+import { withRouter } from 'react-router';
 
 import Image from 'react-bootstrap/Image'
 
@@ -25,4 +26,4 @@ class Header extends React.Component {
     }
 }
 
-export default Header;
+export default withRouter(Header);
