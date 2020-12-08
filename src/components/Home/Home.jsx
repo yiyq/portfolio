@@ -19,7 +19,7 @@ class Home extends React.Component {
     }
 
     handleOnClick(event) {
-        this.props.history.push(`/${event}`);
+        this.props.history.push(`/portfolio/${event}`);
     }
 
     componentDidMount() {

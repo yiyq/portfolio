@@ -21,16 +21,16 @@ class App extends React.Component {
                 <Router>
                     <ScrollToTop />
                     <Switch>
-                        <Route path="/streamLabs">
+                        <Route path="/portfolio/streamLabs">
                             <StreamLabs />
                         </Route>
-                        <Route path="/medforall">
+                        <Route path="/portfolio/medforall">
                             <Medforall />
                         </Route>
-                        <Route path="/ohioathome">
+                        <Route path="/portfolio/ohioathome">
                             <Ohioathome />
                         </Route>
-                        <Route path="/about">
+                        <Route path="/portfolio/about">
                             <About />
                         </Route>
                         <Route path="/portfolio">
