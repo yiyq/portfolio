@@ -15,7 +15,7 @@
   width: 20%;
 }
 
-.nav-footer .nav-footer-item a {
+.nav-footer .nav-footer-item {
   display: block;
   font-size: 20px;
   text-decoration: none;
@@ -23,8 +23,9 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.nav-footer .nav-footer-item a:hover {
+.nav-footer .nav-footer-item:hover {
   color: #E89E9F;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1024px) {

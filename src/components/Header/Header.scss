@@ -18,7 +18,20 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+#nav li {
+    display: block;
+    padding: 1em 1.5em;
+    font-size: 20px;
+    text-decoration: none;
+    color: darkgrey;
+    font-family: 'Open Sans', sans-serif;
+}
+
 #nav li a:hover {
+    color: #E89E9F;
+}
+
+#nav li:hover {
     color: #E89E9F;
 }
 
