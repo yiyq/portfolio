@@ -15,8 +15,8 @@ class Header extends React.Component {
                 { window.innerWidth >= 786 ?
                     <ul id="nav">
                         <li><a href={ resume }>Resume</a></li>
-                        <li><a href="/About">About</a></li>
-                        <li><a href="/">Work</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/portfolio">Work</a></li>
                     </ul> :
                     <div />
                 }
