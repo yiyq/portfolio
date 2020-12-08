@@ -9,7 +9,7 @@
     float: right;
 }
 
-#nav li a {
+#nav li {
     display: block;
     padding: 1em 1.5em;
     font-size: 20px;
@@ -27,12 +27,13 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-#nav li a:hover {
-    color: #E89E9F;
+#nav li a {
+    text-decoration: none;
 }
 
 #nav li:hover {
     color: #E89E9F;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {

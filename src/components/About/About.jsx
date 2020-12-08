@@ -12,7 +12,7 @@ class About extends React.Component {
             <div>
                 <Header />
                 <div className="about-flex-container">
-                    <img className="about-flex-item" src={ yyq } />
+                    <img className="about-flex-item about-fade-in" src={ yyq } />
                     <div className="about-flex-item">
                         <div className="about-header">
                             Hi, I am <mark className="pink">Yunqing Yi</mark>.<br />
