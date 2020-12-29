@@ -25,7 +25,7 @@ class Header extends React.Component {
                 <Image className="logo-img" src={logo} />
                 { window.innerWidth >= 786 ?
                     <ul id="nav">
-                        <li><a href={resume}>Resume</a></li>
+                        <li><a href={resume} target="_blank" rel="noopener noreferrer">Resume</a></li>
                         <li onClick={() => this.handleOnClick('about')}>About</li>
                         <li onClick={() => this.handleOnClick('')}>Work</li>
                     </ul> :
