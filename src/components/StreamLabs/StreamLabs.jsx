@@ -1,4 +1,5 @@
 import React from "react";
+import FadeIn from "react-lazyload-fadein";
 
 import Header from '../Header/Header';
 import NavFooter from '../Footer/NavFooter';
@@ -40,7 +41,13 @@ class StreamLabs extends React.Component {
                     <p>AI, PS, Figma</p>
                     <h2>Duration</h2>
                     <p>3 Days (2019)</p>
-                    <img className="streamlabs-work-flow-img" src={ streamlabsWorkflow } />
+                    <FadeIn>
+                        {onload => (
+                            <div>
+                                <img className="streamlabs-work-flow-img" src={ streamlabsWorkflow } onLoad={onload} />
+                            </div>
+                        )}
+                    </FadeIn>
                 </div>
                 <hr className="streamlabs-hr" />
                 <div className="streamlabs-research-container">
@@ -52,11 +59,23 @@ class StreamLabs extends React.Component {
                         The alert box setting page is a key factor to take full advantage of this feature. Through the customizable
                         setting options, streamers can <strong>better engage with their audiences</strong> and <strong>make themselves different from others</strong>.
                     </p>
-                    <img className="streamlabs-alert-box-img" src={alertBoxExample} />
+                    <FadeIn>
+                        {onload => (
+                            <div>
+                                <img className="streamlabs-alert-box-img" src={alertBoxExample} onLoad={onload} />
+                            </div>
+                        )}
+                    </FadeIn>
                     <h2>Let’s take a look at how does the current alert box work </h2>
                     <div className='streamlabs-spacer' />
-                    <img className="streamlabs-observation-img" src={observation} />
-                    <p className="streamlabs-note">Notes while observation</p>
+                    <FadeIn>
+                        {onload => (
+                            <div>
+                                <img className="streamlabs-observation-img" src={observation} onLoad={onload} />
+                                <p className="streamlabs-note">Notes while observation</p>
+                            </div>
+                        )}
+                    </FadeIn>
                     <div className='streamlabs-spacer-light' />
                     <p>
                         The contrast of primary color and secondary color makes your eyes intuitively drop on the customizable
@@ -86,8 +105,14 @@ class StreamLabs extends React.Component {
                     </p>
                     <div className='streamlabs-spacer-light' />
                     <h2>What are the alternative layouts?</h2>
-                    <img className="streamlabs-ideation-skeche-img" src={ sketche } />
-                    <p className="streamlabs-note">Sketches of layout</p>
+                    <FadeIn>
+                        {onload => (
+                            <div>
+                                <img className="streamlabs-ideation-skeche-img" src={ sketche } onLoad={onload} />
+                                <p className="streamlabs-note">Sketches of layout</p>
+                            </div>
+                        )}
+                    </FadeIn>
                     <p>
                         After brainstorming, I decided to go with a side-by-side layout (bottom-left).<br />
                         On the left is the operation section, which includes a preview window, preset templates, options of the test, and URL generator to apply the customized alert box to streaming platforms.<br />
@@ -95,11 +120,23 @@ class StreamLabs extends React.Component {
                         Going with this side-by-side layout, users will see the preview and settings at the same time. It will avoid the action of scrolling back and forth.
                     </p>
                     <div className="streamlabs-spacer-light" />
-                    <img className="streamlabs-ideation-wireframe1-img" src={ wireframe1 } />
-                    <p className="streamlabs-note">Wireframe of operation section</p>
+                    <FadeIn>
+                        {onload => (
+                            <div>
+                                <img className="streamlabs-ideation-wireframe1-img" src={ wireframe1 } onLoad={onload} />
+                                <p className="streamlabs-note">Wireframe of operation section</p>
+                            </div>
+                        )}
+                    </FadeIn>
                     <div className='streamlabs-spacer-light' />
-                    <img className="streamlabs-ideation-wireframe2-img" src={ wireframe2 } />
-                    <p className="streamlabs-note">Wireframe of settings section</p>
+                    <FadeIn>
+                        {onload => (
+                            <div>
+                                <img className="streamlabs-ideation-wireframe2-img" src={ wireframe2 } onLoad={onload} />
+                                <p className="streamlabs-note">Wireframe of settings section</p>
+                            </div>
+                        )}
+                    </FadeIn>
                     <div className='streamlabs-spacer-light' />
                     <p>
                         The next challenge is to apply a more obvious hierarchy to the page, which can make it easier to
@@ -107,8 +144,14 @@ class StreamLabs extends React.Component {
                         UI buttons, font sizes, font styles, and spacing.
                     </p>
                     <div className='streamlabs-spacer-light' />
-                    <img className="streamlabs-ideation-wireframe3-img" src={ wireframe3 } />
-                    <p className="streamlabs-note">Exploration for UI buttons</p>
+                    <FadeIn>
+                        {onload => (
+                            <div>
+                                <img className="streamlabs-ideation-wireframe3-img" src={ wireframe3 } onLoad={onload} />
+                                <p className="streamlabs-note">Exploration for UI buttons</p>
+                            </div>
+                        )}
+                    </FadeIn>
                 </div>
                 <hr className="streamlabs-hr" />
                 <div className="streamlabs-prototype-container">
@@ -120,16 +163,32 @@ class StreamLabs extends React.Component {
                         <li>Optimize the space</li>
                     </ul>
                 </div>
-                <div>
-                    <img className='streamlabs-prototype-cover-img' src={ prototypeCover } />
-                    <p className="streamlabs-note">Redesigned alter box page</p>
-                </div>
+                <FadeIn>
+                    {onload => (
+                        <div>
+                            <img className='streamlabs-prototype-cover-img' src={ prototypeCover } onLoad={onload} />
+                            <p className="streamlabs-note">Redesigned alter box page</p>
+                        </div>
+                    )}
+                </FadeIn>
                 <div className="streamlabs-prototype-container">
-                    <img className='streamlabs-test-gif' src={ testGif } />
-                    <p className="streamlabs-note">Redesigned alter box page</p>
+                    <FadeIn>
+                        {onload => (
+                            <div>
+                                <img className='streamlabs-test-gif' src={ testGif } onLoad={onload} />
+                                <p className="streamlabs-note">Redesigned alter box page</p>
+                            </div>
+                        )}
+                    </FadeIn>
                     <div className='streamlabs-spacer-light' />
-                    <img className='streamlabs-enable-gif' src={ enableGif } />
-                    <p className="streamlabs-note">Redesigned alter box page</p>
+                    <FadeIn>
+                        {onload => (
+                            <div>
+                                <img className='streamlabs-enable-gif' src={ enableGif } onLoad={onload} />
+                                <p className="streamlabs-note">Redesigned alter box page</p>
+                            </div>
+                        )}
+                    </FadeIn>
                 </div>
                 <hr className="streamlabs-hr" />
                 <div className="streamlabs-reflection-container">

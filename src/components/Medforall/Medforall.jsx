@@ -1,11 +1,11 @@
 import React from "react";
+import FadeIn from "react-lazyload-fadein";
 
 import './Medforall.scss';
 
 import Header from "../Header/Header";
 import NavFooter from "../Footer/NavFooter";
 
-import medforallCoverLong from "../../img/medforall/MFA_projcover_long.png";
 import medforallCover from "../../img/medforall/MFA_projcover.png";
 import medforallWorkflow from '../../img/medforall/MFA_workflow.png';
 import medforallCompetitive from '../../img/medforall/MFA_competitive.gif';
@@ -16,131 +16,176 @@ import medforallMarketingWebsiteFlow from '../../img/medforall/MFA_marketing_web
 import medforallMarketingWebsitePrototype from '../../img/medforall/MFA_marketing_website_prototype.png';
 import medforallWebUI from '../../img/medforall/MFA_web_UI.gif';
 import medforallWebCode from '../../img/medforall/MFA_web_code.gif';
+import medforallIndustryChart from '../../img/medforall/MFA_industry_chart.png';
 
 class Medforall extends React.Component {
+
     render() {
         return (
             <div>
                 <Header />
                 <div className="medforall-header">Medforall</div>
                 <p className="medforall-subheader">Branding and Marketing website</p>
+                <div className="medforall-spacer" />
                 <div className="medforall-fade-in">
-                    { window.innerWidth > 786 ? <img className="medforall-cover-img" src={ medforallCoverLong } /> :
-                        <img className="medforall-cover-img" src={ medforallCover } />
-                    }
+                    <img className="medforall-cover-img" src={ medforallCover } />
                 </div>
-                <div className="medforall-overview-flex-container">
-                    <div className="medforall-overview-flex-item">
-                        <h3>Overview</h3>
-                        <p>Medforall is a technology startup making digital and physical products to support the healthcare industry.
-                            As the initial designer for this startup, I created an entire branding package and build a
-                            marketing website to raise the company’s popularity.
-                        </p>
-                    </div>
-                    <div className="medforall-overview-flex-item">
-                        <h3>Role</h3>
-                        <p>Design researcher, UI/UX designer, Developer</p>
-                        <h3>Tools</h3>
-                        <p>AI, PS, Figma, HTML/CSS/JS</p>
-                        <h3>Duration</h3>
-                        <p>2 months (2017)</p>
-                    </div>
-                    <img className="medforall-work-flow-img" src={ medforallWorkflow } />
+                <div className="medforall-overview-container">
+                    <h2>Overview</h2>
+                    <p>
+                        Medforall is a technology startup making digital and physical products to support the healthcare
+                        industry. I worked on projects including design the logo, build brand identity, etc.
+                    </p>
+                    <h2>Role</h2>
+                    <p>Design researcher, UI/UX designer, Developer</p>
+                    <h2>Tools</h2>
+                    <p>AI, PS, Figma, HTML/CSS/JS</p>
+                    <h2>Duration</h2>
+                    <p>2 months (2017)</p>
+                    <FadeIn>
+                        {onload => (
+                            <div>
+                                <img className="medforall-work-flow-img" src={ medforallWorkflow } onLoad={onload} />
+                            </div>
+                        )}
+                    </FadeIn>
                 </div>
                 <hr className="medforall-hr" />
                 <div className="medforall-research-container">
-                    <h1>Research</h1>
-                    <h3>Background Research</h3>
-                    <p>By the time I joined Medforall, it was a just founded startup. The first task for me was to create
-                        its brand identity. I work directly with our CEO to clarify our market position and the company’s mission.
-                    </p>
-                    <div className="medforall-spacer" />
-                    <h3>Market Research</h3>
-                    <img className="medforall-competitive-img" src={ medforallCompetitive } />
+                    <h2>Medforall is...</h2>
+                    <FadeIn>
+                        {onload => (
+                            <div>
+                                <img className="medforall-competitive-img" src={ medforallCompetitive } onLoad={onload} />
+                            </div>
+                        )}
+                    </FadeIn>
                     <p>
-                        There are two main categories of business in the healthcare industry, traditional home healthcare
-                        agencies, and technology companies supporting medical healthcare. Our CEO owns a local traditional
-                        home healthcare agency (Ohioathome healthcare agency), and under the rapid development of technology,
-                        he sees the potential of applying advanced technology in home healthcare environment. And that is
-                        the reason why Medforall was founded in the first place.
+                        There are two main categories of business in the healthcare industry: traditional home
+                        healthcare agencies and healthcare technology companies.
                     </p>
-                    <div className="medforall-research-flex-container">
-                        <div className="medforall-research-flex-item">
-                            <h3>Company</h3>
-                            <p className="medforall-research">Traditional home healthcare agencies</p>
-                            <p className="medforall-research">Medical healthcare technology companies</p>
-                            <p className="medforall-research">Medforall</p>
-                        </div>
-                        <div className="medforall-research-flex-item">
-                            <h3>Features</h3>
-                            <p className="medforall-research">- In-person home healthcare<br />- Serving the elderly and disabilities</p>
-                            <p className="medforall-research">- Provide data collecting and analysis<br />- Supporting hospitals and organizations </p>
-                            <p className="medforall-research">- Fulfill the gap in the current industry<br />- Bring technology to home healthcare services</p>
-                        </div>
-                    </div>
-                    <h3>Our mission and goal</h3>
-                    <p>Medforall strives to define and create the healthcare collaboration framework of the future.
-                        We want to cultivate an ecosystem of multidisciplinary providers, and patient monitoring devices
-                        to streamline work and collaborate with each other to provide the best care to those we serve.
+                    <div className="medforall-spacer-light" />
+                    <FadeIn>
+                        {onload => (
+                            <div>
+                                <img className="medforall-industry-chart-img" src={ medforallIndustryChart } onLoad={onload} />
+                            </div>
+                        )}
+                    </FadeIn>
+                    <div className="medforall-spacer-light" />
+                    <p>
+                        All the research helped us developed an impregnable mission.
+                    </p>
+                    <div className="medforall-spacer-light" />
+                    <p className="medforall-italic">
+                        “Medforall strives to define and create the healthcare collaboration framework of the future.
+                        We want to cultivate an ecosystem of multidisciplinary providers and patient monitoring devices.
+                        To streamline work and collaborate to provide the best care to those we serve.”
                     </p>
                 </div>
                 <hr className="medforall-hr" />
                 <div className="medforall-ideation-prototype-container">
-                    <h1>Ideation & Prototype</h1>
                     <p>
-                        After defined our position and mission, and learned deeply about the company and our team, I
-                        started to design the visual system for Medforall. The ideation and prototype steps, including
-                        some research, go back and forth in this stage.
+                        Involved in setting the company’s fundamentals helped me learn deeply about the company and our
+                        team. As a newly graduated student and the initial designer for the company means everything starts
+                        from zero. I feel thrilled but confused about the next steps.
                     </p>
                     <div className="medforall-spacer" />
-                    <h3>Logo design</h3>
-                    <img className="medforall-logo-design-1" src={ medforallLogo1 } />
+                    <h2>I started to ask myself, what does Medforall “look like”?</h2>
+                    <FadeIn>
+                        {onload => (
+                            <div>
+                                <img className="medforall-logo-design-1" src={ medforallLogo1 } onLoad={onload} />
+                            </div>
+                        )}
+                    </FadeIn>
                     <p>
-                        The main concept combines the element of protection and technology, which represents our target
-                        market is home healthcare and our products are smart devices and digital platforms.
+                        A random piece of words from our CEO appeared in my mind “I like hexagon, it means technology.”
+                        I kept sketching in my notebook until our CEO went through and pointed out one of the sketches.
+                        <br /><br />
+                        My imagination and creativity started rolling. We decided on the concept which combines the
+                        element of protection and technology. This concept represents our target market is home healthcare
+                        and our products are hardware and software solutions.
                     </p>
-                    <img className="medforall-logo-design-2" src={ medforallLogo2 } />
+                    <FadeIn>
+                        {onload => (
+                            <div>
+                                <img className="medforall-logo-design-2" src={ medforallLogo2 } onLoad={onload} />
+                            </div>
+                        )}
+                    </FadeIn>
                     <p>
-                        The final design is a red cube presenting our core business as technology and wrapped by a
-                        blueish-green rounded corner hexagon that stands for our value, providing protective service in
-                        home healthcare.
+                        The final logo is a red cube presenting our core business as technology. It is wrapped by a
+                        blueish-green rounded corner hexagon that stands for our value, providing protective service
+                        in-home healthcare.
+                        <br /><br />
+                        Coming along with the logo, I created a complete design style guide. The guide can be seen as a
+                        company’s mood board and standard for future products and marketing materials.
                     </p>
                     <div className="medforall-spacer" />
-                    <h3>Design system</h3>
-                    <p>
-                        I also created a complete design style guide as a company mood board and define a style standard
-                        for future products and marketing materials.
-                    </p>
-                    <img className="medforall-design-system-img" src={ medforallDesignSystem } />
+                    <FadeIn>
+                        {onload => (
+                            <div>
+                                <img className="medforall-design-system-img" src={ medforallDesignSystem } onLoad={onload} />
+                            </div>
+                        )}
+                    </FadeIn>
                     <div className="medforall-spacer" />
-                    <h3>Marketing website</h3>
                     <p>
-                        As one part of  brand development, I created a marketing website for increasing the popularity and
-                        expanding the team. A sitemap helped me organize the information and visualized the structure.
+                        As a fast-paced startup, we step into the next stage immediately. We decided to build a website
+                        for increasing the popularity and expanding the team. I started with sketching out the sitemap
+                        to organize the information and visualized the structure.
                     </p>
-                    <img className="medforall-marketing-website-flow-img" src={ medforallMarketingWebsiteFlow } />
+                    <FadeIn>
+                        {onload => (
+                            <div>
+                                <img className="medforall-marketing-website-flow-img" src={ medforallMarketingWebsiteFlow } onLoad={onload} />
+                            </div>
+                        )}
+                    </FadeIn>
                     <p>
-                        I prototyped the site in Figma first and created three versions that fit different screen sizes.
+                        Each page has a focal point. Different types of the audience can get the most targeted information they are looking for.
+                        <br /><br />
+                        It is necessary to make the website responsively. I explore different layouts on multiple screen sizes.
+                        My principle is to keep an identical flow across devices and integrally display every piece of information.
+                        I iterated layouts for different screen sizes and found the most balanced one.
                     </p>
-                    <img className="medforall-marketing-website-prototype-img" src={ medforallMarketingWebsitePrototype } />
+                    <FadeIn>
+                        {onload => (
+                            <div>
+                                <img className="medforall-marketing-website-prototype-img" src={ medforallMarketingWebsitePrototype } onLoad={onload} />
+                            </div>
+                        )}
+                    </FadeIn>
                 </div>
                 <hr className="medforall-hr" />
                 <div className="medforall-development-container">
-                    <h1>Development</h1>
                     <p>
-                        Collaborate with one of our software engineers, I build the marketing website ready to launch.
+                        With a little bit of coding experience, I put my hands on developing the website into production. It was a challenge for me to align the design and the product.
+                        <br /><br />
+                        I spent a lot of time learning from online open resources to find the best solutions and did tons of test runs.
+                        <br /><br />
+                        There is always something I can’t fix, so I seek help from our engineers. Collaborating with them helped me define the problem more accurately.
+                        <br /><br />
+                        If I still can’t get the effect, I went back to design files and explore alternatives that can accomplish the same purpose.
                     </p>
-                    <img className="medforall-web-ui-img" src={ medforallWebUI } />
-                    <img className="medforall-web-code-img" src={ medforallWebCode } />
-                    <div className="medforall-spacer" />
-                    <h3>Reflection</h3>
+                    <FadeIn>
+                        {onload => (
+                            <div>
+                                <img className="medforall-web-ui-img" src={ medforallWebUI } onLoad={onload} />
+                                <img className="medforall-web-code-img" src={ medforallWebCode } onLoad={onload} />
+                            </div>
+                        )}
+                    </FadeIn>
+                </div>
+                <hr className="medforall-hr" />
+                <div className="medforall-development-container">
+                    <h2>Conclusion</h2>
                     <p>
                         I joined Medforall as my first full-time job after graduation. I am glad about having this opportunity
-                        to develop the company’s brand identity. This is a valuable process from knowing this industry,
-                        contact with people working in this field, and apply multiple skill sets to accomplish the projects.
-                        These are huge steps for this startup and as well as myself, and this is just the beginning.
-                        <br /><br />
-                        If you would like to see more works I have done with this company, please feel free to contact me.
+                        to develop the company’s brand identity. It was a valuable experience in applying multiple skill sets
+                        to accomplish different projects. These are significant steps for this startup and also for myself,
+                        and this is just the beginning.
                     </p>
                 </div>
                 <NavFooter />
