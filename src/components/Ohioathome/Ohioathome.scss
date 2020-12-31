@@ -1,5 +1,5 @@
 .ohioathome-header {
-  margin-top: 2em;
+  margin-top: 1.5em;
   text-align: center;
   font-size: 60px;
   font-weight: bold;
@@ -41,7 +41,12 @@
   margin-bottom: 3em;
 }
 
-.ohioathome-research-container, .ohioathome-ideation-container, .ohioathome-prototype-container, .ohioathome-testing-container {
+.ohioathome-spacer-light {
+  margin-bottom: 1.5em;
+}
+
+.ohioathome-overview-container, .ohioathome-research-container, .ohioathome-ideation-container, .ohioathome-prototype-container,
+.ohioathome-final-container, .ohioathome-testing-container {
   padding-left: 20%;
   padding-right: 20%;
   margin-top: 3em;
@@ -56,30 +61,25 @@
 }
 
 .ohioathome-cover-img, .ohioathome-work-flow-img, .ohioathome-research-cover-img, .ohioathome-user-stories-img,
-.ohioathome-wireframe-img, .ohioathome-prototype-img, .ohioathome-testing-img {
+.ohioathome-wireframe-img, .ohioathome-testing-img {
   display: block;
   margin: 3em auto;
-  width: 80%;
+  width: 100%;
 }
 
 .ohioathome-persona-1-img, .ohioathome-persona-2-img {
   display: block;
-  width: 75%;
+  width: 100%;
   margin: 3em auto;
 }
 
-.ohioathome-overview-flex-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  margin-top: 3em;
-  padding-left: 20%;
-  padding-right: 20%;
-}
-
-.ohioathome-overview-flex-item {
+.ohioathome-prototype-img {
+  left: 50%;
+  margin-left: -23.3vw;
+  max-width: 50vw;
   position: relative;
-  width: 45%;
+  right: 50%;
+  width: 50vw;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -96,19 +96,11 @@
     font-size: 24px;
     font-family: 'Open Sans', sans-serif;
   }
-  .ohioathome-research-container, .ohioathome-ideation-container, .ohioathome-prototype-container, .ohioathome-testing-container {
+  .ohioathome-overview-container, .ohioathome-research-container, .ohioathome-ideation-container, .ohioathome-prototype-container, .ohioathome-testing-container, .ohioathome-final-container {
     padding-left: 10%;
     padding-right: 10%;
     margin-top: 3em;
     margin-bottom: 3em;
-  }
-  .ohioathome-overview-flex-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    margin-top: 3em;
-    padding-left: 10%;
-    padding-right: 10%;
   }
   .ohioathome-cover-img {
     display: block;
@@ -120,45 +112,45 @@
     width: 90%;
     margin: 3em auto;
   }
+  .ohioathome-prototype-img {
+    left: 0;
+    margin: 0;
+    max-width: 100%;
+    position: center;
+    right: 0;
+    width: 100%;
+  }
+}
 
-  @media only screen and (max-width: 768px) {
-    .ohioathome-header {
-      margin-top: 0.5em;
-      text-align: center;
-      font-size: 38px;
-      font-weight: bold;
-      font-family: 'Open Sans', sans-serif;
-    }
-    .ohioathome-subheader {
-      margin: 0;
-      text-align: center;
-      font-size: 17px;
-      font-family: 'Open Sans', sans-serif;
-    }
-    .ohioathome-cover-img, .ohioathome-work-flow-img, .ohioathome-research-cover-img, .ohioathome-user-stories-img,
-    .ohioathome-wireframe-img, .ohioathome-prototype-img, .ohioathome-testing-img {
-      display: block;
-      margin: 3em auto;
-      width: 100%;
-    }
-    .ohioathome-overview-flex-container {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: space-between;
-      margin-top: 2em;
-      padding-left: 10%;
-      padding-right: 10%;
-    }
-    .ohioathome-persona-1-img, .ohioathome-persona-2-img {
-      display: block;
-      width: 100%;
-      margin: 3em auto;
-    }
-    .ohioathome-persona-container {
-      padding-left: 0;
-      padding-right: 0;
-      margin-top: 3em;
-      margin-bottom: 3em;
-    }
+@media only screen and (max-width: 768px) {
+  .ohioathome-header {
+    margin-top: 0.5em;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .ohioathome-subheader {
+    margin: 0;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .ohioathome-cover-img, .ohioathome-work-flow-img, .ohioathome-research-cover-img, .ohioathome-user-stories-img,
+  .ohioathome-wireframe-img, .ohioathome-prototype-img, .ohioathome-testing-img {
+    display: block;
+    margin: 1.5em auto;
+    width: 100%;
+  }
+  .ohioathome-persona-1-img, .ohioathome-persona-2-img {
+    display: block;
+    width: 100%;
+    margin: 3em auto;
+  }
+  .ohioathome-persona-container {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 3em;
+    margin-bottom: 3em;
   }
 }
