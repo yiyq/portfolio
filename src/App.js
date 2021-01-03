@@ -15,7 +15,7 @@ class App extends React.Component {
                 <Router>
                     <Switch>
                         <Route path='/' component={() => {
-                            window.location.href = 'https://yunqingyi.webflow.io/';
+                            window.location.href = 'https://www.yunqingyi.com/';
                             return null;
                         }}/>
                     </Switch>
